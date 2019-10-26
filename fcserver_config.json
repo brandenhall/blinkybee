@@ -1,0 +1,25 @@
+{
+  "listen": ["0.0.0.0", 7890],
+  "relay":  null,
+  "verbose": true,
+
+  "color": {
+      "gamma": 2.5,
+      "whitepoint": [0.98, 1.0, 1.0],
+      "linearSlope": 1.0,
+      "linearCutoff": 0.0
+  },
+
+  "devices": [
+      {
+          "type": "fadecandy",
+          "serial": "TPLBFDIWTFMDENEN",
+          "map": [
+              [ 0, 0, 0, 23, "grb"],
+              [ 0, 23, 64, 24, "grb"],
+              [ 0, 47, 128, 24, "grb"],
+              [ 0, 71, 192, 16, "grb"]
+          ]
+      }
+  ]
+}

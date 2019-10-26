@@ -1,0 +1,21 @@
+{
+  "short_name": "BlinkyBee",
+  "name": "BlinkyBee",
+  "icons": [
+    {
+      "src": "/media/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/media/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
